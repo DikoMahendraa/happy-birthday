@@ -15,7 +15,6 @@ body {
   text-align: center;
   visibility: hidden;
   position: relative;
-  overflow: hidden;
 }
 
 .container div.six {
@@ -261,6 +260,7 @@ body {
 @media screen and (max-width: 500px) {
   .container {
     width: 90%;
+    height: 100%;
   }
 
   .four .text-box {
